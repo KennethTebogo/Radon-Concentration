@@ -20,12 +20,11 @@ This Python script calculates radon concentration in indoor air using E-PERM ele
 ## 🧮 Formula Used
 
 **Radon concentration (CRn):**
-```
+
 $$
 CRn = \frac{I - F}{C_f \times T} - BG
 $$
 
-```
 Where:
 - `I` = Initial voltage (V)
 - `F` = Final voltage (V)
@@ -42,12 +41,12 @@ Total uncertainty is calculated from:
 - **E₃:** Background gamma correction uncertainty (default ±6 Bq/m³)
 
 Combined using:
-```
+
 $$
 E_{total} = \sqrt{E_1^2 + E_2^2 + E_3^2}
 $$
 
-```
+
 
 ## 🛠️ Usage
 
